@@ -5,17 +5,17 @@ Dataset: https://www.kaggle.com/datasets/bulentsiyah/semantic-drone-dataset
 
 Structure:
 
-AI_Drone_Semantic_Segmentation_and_Landing/
-|
-|- Data/
-|- Models/
-|- Results/
-|- DroneDataset.py
-|- ImageAugmentation.py
-|- Landing_point_prediction.py
-|- Testing.py
-|- Training.py
-|- Utility.py
+AI_Drone_Semantic_Segmentation_and_Landing/  
+|  
+|- Data/  
+|- Models/  
+|- Results/  
+|- DroneDataset.py  
+|- ImageAugmentation.py  
+|- Landing_point_prediction.py  
+|- Testing.py  
+|- Training.py  
+|- Utility.py  
 
 1. Data/ -> organized in three folders containing the images, integer masks and rgb masks, the size of the download is ~ 4.23 GB, and the class dictionary.
 
