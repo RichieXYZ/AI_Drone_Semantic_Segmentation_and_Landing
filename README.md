@@ -19,6 +19,8 @@ AI_Drone_Semantic_Segmentation_and_Landing/
 
 1. Data/ -> organized in three folders containing the images, integer masks and rgb masks, the size of the download is ~ 4.23 GB, and the class dictionary.
 
+
+
 <img width="769" height="295" alt="Screenshot 2026-05-08 at 20 28 44" src="https://github.com/user-attachments/assets/bda4c29a-dc67-46cb-b326-dc8e29964290" />
  
 2. Models/ -> the folder where the trained models are stored
