@@ -27,6 +27,8 @@ AI_Drone_Semantic_Segmentation_and_Landing/
 
 3. Results/ -> contain the results of exploratory run to select the best encoder backbone for the model. Different networks have been tested and efficientnetb0 performed the best.
 
+<img width="1072" height="432" alt="Screenshot 2026-05-08 at 20 53 39" src="https://github.com/user-attachments/assets/e85f9e6c-6cc5-4464-b8c5-57023e4cc66c" />
+
 4. DroneDataset.py ->
 
 5. ImageAugmentation.py ->
