@@ -24,3 +24,9 @@ AI_Drone_Semantic_Segmentation_and_Landing/
 2. Models/ -> the folder where the trained models are stored
 
 3. Results/ -> contain the results of exploratory run to select the best encoder backbone for the model. Different networks have been tested and efficientnetb0 performed the best.
+
+4. DroneDataset.py ->
+
+5. ImageAugmentation.py ->
+
+6. Landing_point_prediction.py
