@@ -1,5 +1,6 @@
 # AI_Drone_Semantic_Segmentation_and_Landing
-U-Net based semantic segmentation softwares for drone aerial view
+
+Artificial vision project for computer-assisted drone landing system based on U-Net++ architecture performing semantic segmentation task on aerial view drone images. In this deep learning project techniques like image augmentation, encoder selection and algorithmic landing point prediction are implemented in a clear, easily modifiable way.
 
 Dataset: https://www.kaggle.com/datasets/bulentsiyah/semantic-drone-dataset
 
