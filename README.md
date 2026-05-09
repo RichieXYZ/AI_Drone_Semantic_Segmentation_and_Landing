@@ -35,17 +35,17 @@ AI_Drone_Semantic_Segmentation_and_Landing/
 
 6. Landing_point_prediction.py -> this script defines the algorithm for the computation of the best landing point. It works on the segmentation map by selecting the center of the largest circle inscribed in the paved area or grass. 
 
-7. Testing.py -> the script for running inference of the model on the test set. Here are monitored the per-class accuracy, average accuracy and average IoU.
+7. Testing.py -> the script for running inference of the model on the test set. Here are monitored the per-class accuracy, average accuracy and average IoU.  
 
 <img width="1180" height="378" alt="Screenshot 2026-05-08 at 22 04 55" src="https://github.com/user-attachments/assets/e4a1d233-0808-4581-abfb-86e241c80104" />
 
 
-<img width="900" height="612" alt="Screenshot 2026-05-08 at 22 02 07" src="https://github.com/user-attachments/assets/b6b30e07-9f46-4d1d-bb78-d513c6c099eb" />
+<img width="900" height="612" alt="Screenshot 2026-05-08 at 22 02 07" src="https://github.com/user-attachments/assets/b6b30e07-9f46-4d1d-bb78-d513c6c099eb" />  
 
 
-9. Training.py -> in this script are defined the functions for training the model. In particular the function encoder_comparison is used as a preliminary training of 30 epochs in order to select the best encoder backbone among few architectures : ['mobilenet_v2', 'resnet50', 'efficientnet-b0', 'densenet121']. Once the best encoder is selected, it is employed in a U-Net++ architecture for the actual training with early stopping.
+9. Training.py -> in this script are defined the functions for training the model. In particular the function encoder_comparison is used as a preliminary training of 30 epochs in order to select the best encoder backbone among few architectures : ['mobilenet_v2', 'resnet50', 'efficientnet-b0', 'densenet121']. Once the best encoder is selected, it is employed in a U-Net++ architecture for the actual training with early stopping.  
 
-<img width="859" height="496" alt="Screenshot 2026-05-09 at 12 41 33" src="https://github.com/user-attachments/assets/92034123-7513-4ce5-9378-3a6c152d59ca" />
+<img width="859" height="496" alt="Screenshot 2026-05-09 at 12 41 33" src="https://github.com/user-attachments/assets/92034123-7513-4ce5-9378-3a6c152d59ca" />  
 
 
 12. Utility.py ->
