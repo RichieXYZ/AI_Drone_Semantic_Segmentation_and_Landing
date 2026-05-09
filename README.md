@@ -39,14 +39,12 @@ AI_Drone_Semantic_Segmentation_and_Landing/
 
 <img width="1180" height="378" alt="Screenshot 2026-05-08 at 22 04 55" src="https://github.com/user-attachments/assets/e4a1d233-0808-4581-abfb-86e241c80104" />
 
-
 <img width="900" height="612" alt="Screenshot 2026-05-08 at 22 02 07" src="https://github.com/user-attachments/assets/b6b30e07-9f46-4d1d-bb78-d513c6c099eb" />  
-
-
 
 8. Training.py -> in this script are defined the functions for training the model. In particular the function encoder_comparison is used as a preliminary training of 30 epochs in order to select the best encoder backbone among few architectures : ['mobilenet_v2', 'resnet50', 'efficientnet-b0', 'densenet121']. Once the best encoder is selected, it is employed in a U-Net++ architecture for the actual training with early stopping.  
 
 <img width="859" height="496" alt="Screenshot 2026-05-09 at 12 41 33" src="https://github.com/user-attachments/assets/92034123-7513-4ce5-9378-3a6c152d59ca" />  
 
+The U-Net++ is a convolutional encoder-decoder architecture based on the ordinary U-Net but with the addition of nested skip connections that aggregate the features while decoding the encoded data, and deep supervision that inject gradients at all depths providing a regularization in the deeper layers of the model.
 
-9. Utility.py ->
+9. Utility.py -> This file contains all the utility functions uded in the scripts.
