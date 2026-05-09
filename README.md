@@ -27,7 +27,7 @@ AI_Drone_Semantic_Segmentation_and_Landing/
 
 <img width="1072" height="432" alt="Screenshot 2026-05-08 at 20 53 39" src="https://github.com/user-attachments/assets/e85f9e6c-6cc5-4464-b8c5-57023e4cc66c" />
 
-4. DroneDataset.py ->
+4. DroneDataset.py -> this script defines the dataset class, that handles the data loading, image transformation, normalization, augmentation and data splitting, returning the two tensor of the augmented image and corresponding segmentation map.
 
 5. ImageAugmentation.py -> This scripts provides a separate sandbox to design and try image augmentation using the package Albumentations for this project. In fact, in this setup, augmentation is not only useful to enlarge the data available for training, but provides a whole system to enhance the robustness of the drone capability to handle unseen situations. The provided augmentations, beside ordinary geometrical transformation such as resizing, flipping and affine transforms, account for different weather conditions and eventual camera failures like dead pixels or sensor damage.
 
