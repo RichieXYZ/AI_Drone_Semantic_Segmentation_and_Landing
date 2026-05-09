@@ -43,9 +43,10 @@ AI_Drone_Semantic_Segmentation_and_Landing/
 <img width="900" height="612" alt="Screenshot 2026-05-08 at 22 02 07" src="https://github.com/user-attachments/assets/b6b30e07-9f46-4d1d-bb78-d513c6c099eb" />  
 
 
-9. Training.py -> in this script are defined the functions for training the model. In particular the function encoder_comparison is used as a preliminary training of 30 epochs in order to select the best encoder backbone among few architectures : ['mobilenet_v2', 'resnet50', 'efficientnet-b0', 'densenet121']. Once the best encoder is selected, it is employed in a U-Net++ architecture for the actual training with early stopping.  
+
+8. Training.py -> in this script are defined the functions for training the model. In particular the function encoder_comparison is used as a preliminary training of 30 epochs in order to select the best encoder backbone among few architectures : ['mobilenet_v2', 'resnet50', 'efficientnet-b0', 'densenet121']. Once the best encoder is selected, it is employed in a U-Net++ architecture for the actual training with early stopping.  
 
 <img width="859" height="496" alt="Screenshot 2026-05-09 at 12 41 33" src="https://github.com/user-attachments/assets/92034123-7513-4ce5-9378-3a6c152d59ca" />  
 
 
-12. Utility.py ->
+9. Utility.py ->
