@@ -19,8 +19,6 @@ AI_Drone_Semantic_Segmentation_and_Landing/
 
 1. Data/ -> organized in three folders containing the images, integer masks and rgb masks, the size of the download is ~ 4.23 GB, and the class dictionary.
 
-
-
 <img width="769" height="295" alt="Screenshot 2026-05-08 at 20 28 44" src="https://github.com/user-attachments/assets/bda4c29a-dc67-46cb-b326-dc8e29964290" />
  
 2. Models/ -> the folder where the trained models are stored
@@ -35,9 +33,11 @@ AI_Drone_Semantic_Segmentation_and_Landing/
 
 <img width="1168" height="416" alt="Screenshot 2026-05-09 at 12 57 42" src="https://github.com/user-attachments/assets/ec93ac2d-1398-4dc9-be58-e1cd33a613c1" />
 
-6. Landing_point_prediction.py -> this script defines the algorithm for the computation of the best landing point. It works on the segmentation map by selecting the center of the largest circle inscribed in the paved area or grass. 
+6. Landing_point_prediction.py -> this script defines the algorithm for the computation of the best landing point. It works on the segmentation map by selecting the center of the largest circle inscribed in the paved area or grass.
 
-7. Testing.py -> the script for running inference of the model on the test set. Here are monitored the per-class accuracy, average accuracy and average IoU.  
+<img width="1168" height="416" alt="Screenshot 2026-05-09 at 13 04 52" src="https://github.com/user-attachments/assets/25019455-ed79-4195-82f4-1a5910210b05" />
+
+8. Testing.py -> the script for running inference of the model on the test set. Here are monitored the per-class accuracy, average accuracy and average IoU.  
 
 <img width="1180" height="378" alt="Screenshot 2026-05-08 at 22 04 55" src="https://github.com/user-attachments/assets/e4a1d233-0808-4581-abfb-86e241c80104" />
 
